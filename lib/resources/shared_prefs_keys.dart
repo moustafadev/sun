@@ -1,0 +1,11 @@
+const String totalListenedMinutes = 'totalListenedMinutes';
+const String monday = 'monday';
+const String tuesday = 'tuesday';
+const String wednesday = 'wednesday';
+const String thursday = 'thursday';
+const String friday = 'friday';
+const String saturday = 'saturday';
+const String sunday = 'sunday';
+const String currentWeekNumber = 'currentWeekNumber';
+const String showReminder = 'showReminder';
+const String muteBackground = 'muteBackground';

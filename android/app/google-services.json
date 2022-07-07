@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "36999162311",
+    "firebase_url": "https://relaxing-vibes.firebaseio.com",
+    "project_id": "relaxing-vibes",
+    "storage_bucket": "relaxing-vibes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36999162311:android:64fd71833929c7b8d951e2",
+        "android_client_info": {
+          "package_name": "sun.live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36999162311-8v6hcplnfs1bqcvtskge2gm7k7qltbme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3cdY2oSfAxYBgqnUYRSJv1bHmaAP4tmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36999162311-8v6hcplnfs1bqcvtskge2gm7k7qltbme.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "36999162311-rj9fd3kvrp1c4t2j5h6jk4dpcknseq3k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sun.live"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+name: meditation
+description: A new Flutter project.
+publish_to: none
+
+version: 1.0.22+23
+
+environment:
+  sdk: ">=2.10.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  cupertino_icons: ^1.0.4
+  flutter_svg: ^1.0.3
+  story_view: ^0.13.2
+  vector_math: ^2.1.2
+  simple_animations: ^4.0.1
+  connectivity: ^3.0.6
+  global_configuration: ^2.0.0-nullsafety.0
+  image_picker: ^0.8.4+11
+  shimmer: ^2.0.0
+  image_cropper: ^1.5.0
+  intl: ^0.17.0
+  shared_preferences: ^2.0.15
+  http: ^0.13.4
+  rflutter_alert: ^2.0.4
+  share: ^2.0.4
+  in_app_purchase: ^3.0.2
+  url_launcher: ^6.0.20
+  hive: ^2.1.0
+  hive_flutter: ^1.1.0
+  percent_indicator: ^2.1.9
+  flutter_circular_slider: ^2.5.0
+  sleek_circular_slider: ^1.2.0+web
+  syncfusion_flutter_gauges: ^18.4.49
+  just_audio: ^0.9.24
+  flutter_local_notifications: ^5.0.0-nullsafety.1
+  charts_flutter: ^0.12.0
+  jiffy: ^4.0.0
+  flutter_inapp_purchase: ^5.1.2
+  carousel_slider: ^4.0.0-nullsafety.0
+  flutter_plugin_android_lifecycle: ^2.0.0
+  cached_network_image: ^3.0.0
+  audio_service: ^0.18.4
+  provider: ^5.0.0
+  purchases_flutter: ^3.4.5
+  holding_gesture: ^1.0.0
+  facebook_app_events: ^0.16.0
+  app_tracking_transparency: ^2.0.2+4
+  amplitude_flutter: ^3.8.1
+  appsflyer_sdk: ^6.5.2+2
+  audioplayers: ^0.20.1
+
+  package_info_plus: ^1.4.2
+  device_info_plus: ^3.2.3
+  flutter_secure_storage: ^5.0.2
+  
+  cloud_firestore: ^3.1.11
+  firebase_auth: ^3.3.12
+  firebase_storage: ^10.2.10
+  firebase_messaging: ^11.2.12
+  firebase_analytics: ^9.1.3
+  firebase_remote_config: ^2.0.3
+  firebase_core: ^1.14.0
+  firebase_crashlytics: ^2.8.1
+
+  webview_flutter: ^3.0.4
+
+#todo: remove overrides
+#dependency_overrides:
+#  path: 1.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+# flutter_icons:
+#   android: "launcher_icon"
+#   ios: true
+#   image_path: "asset/img/sun_logo.jpg"
+flutter_icons:
+  android: "ic_notification_icon"
+  image_path: "asset/img/sun_logo.jpg"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - asset/img/
+   - asset/img/icons/
+   - asset/img/icons/needs/
+   - asset/img/icons/contents/
+   - asset/img/bg/
+   - asset/config/
+
+  fonts:
+    - family: Ageo
+      fonts:
+        - asset: asset/font/Ageo/ageo-thin.ttf
+          weight: 100
+        - asset: asset/font/Ageo/ageo-light.ttf
+          weight: 200
+        - asset: asset/font/Ageo/ageo-regular.ttf
+          weight: 300
+        - asset: asset/font/Ageo/ageo-medium.ttf
+          weight: 400
+        - asset: asset/font/Ageo/ageo-semi-bold.ttf
+          weight: 500
+        - asset: asset/font/Ageo/ageo-bold.ttf
+          weight: 600
+        - asset: asset/font/Ageo/ageo-Heavy.ttf
+          weight: 700
